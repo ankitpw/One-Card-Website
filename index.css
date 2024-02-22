@@ -1,0 +1,200 @@
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.nav{
+ height: 55px;
+ background-color: #141313;
+ display: flex;
+ justify-content: space-evenly;
+ width: 100%;
+ gap: 520px;
+ position: fixed;
+ top: 0px;
+}
+.box1{
+ color: #2020d5;
+ font-weight: bolder;
+ font-size: 1.5rem;
+}
+.box2{
+ display: flex;
+ color: aliceblue;
+ gap: 40px;
+ font-size: 18px;
+ align-items: center;                 
+}
+.box3{
+ color: white;
+ background-color: #0559f7;
+ padding: 5px 25px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ text-align: center;
+ border-radius: 5%;
+}
+.main{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ gap: 30px;
+
+}
+.content{
+ height: 65vh;
+ width: 40vw;
+ display: flex;
+ flex-direction: column;
+ margin-top: 180px;
+}
+.video{
+ height: 65vh;
+ width: 40vw;
+ margin-top: -100px;
+}
+.video video{
+ width: 570px;
+}
+.content>div.hi{
+ font-size: 30px;
+ font-weight: bold;
+}
+.content>div.card{
+ color: #3371e5;
+ font-size: 70px;
+ font-weight: 700;
+ margin-bottom: 20px;
+}
+.content>div.brand{
+ color: #3371e5;
+ font-size: 20px;
+ font-weight: 700;
+}
+.logo{
+ height: 100px;
+ width: 400px;
+ margin-top: 20px;
+ background-image: url(Banking_partners_24thJan_dark__.png);
+ background-size: cover;
+}
+.about{
+ margin-top: 40px;
+ font-size: 19px;
+ font-weight: 400;
+}
+.footer{
+ background-color: #161616;
+ height: 80vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 5px;
+}
+.panel1{
+ color: blue;
+ font-size: 3rem;
+ font-weight: 700;
+}
+.panel2{
+ color: white;
+ font-size: 20px;
+ margin-top: 25px;
+}
+.last{
+ color: white;
+ font-size: 20px;
+ margin-top: -4px;
+}
+.panel3{
+
+ width: 100%;
+ border-top: 2px solid white;
+ margin-top: 20px;
+ display: flex;
+ justify-content: space-around;
+ color: white;
+}
+.panel3>div{
+ margin-top: 40px;
+}
+.class>h4{
+ font-size: 30px;
+ font-weight: 400;
+ margin-bottom: 20px;
+}
+.class>p{
+ color: #f8f3ee;
+ margin-top: 15px;
+}
+.information{
+ width: 350px;
+}
+.information>p{
+ margin-top: 7px;
+}
+.navigation{
+ width: 150px;
+}
+.support{
+ width: 100px;
+}
+.news{
+ width: 350px;
+}
+.item1{
+background-color: #fff;
+width: 200px;
+padding: 10px 0px;
+color: gray;
+padding-left: 10px;
+}
+.item2{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: #5a5ae7;
+ padding: 10px 0px;
+ width: 200px;
+}
+@media (max-width:800px){
+ .nav{
+ height: 80px;
+ width: 100vw;
+ gap: 100px;
+ }
+ .box1{
+  font-size: 25px;
+  padding-top: 8px;
+ }
+ .box2,.box3{
+  visibility: hidden;
+ }
+ .box3{
+ 
+ }
+ .main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: -350px;
+ }
+ .content{
+  margin-bottom: 50px;
+ }
+ .footer{
+  margin-top: 148px;
+  background-color: white;
+  gap: 10px;
+ }
+  .panel1{
+   display: flex;
+   flex-wrap: wrap;
+  }
+ .panel2,.last{
+  color: black;
+ }
+ 
+}
